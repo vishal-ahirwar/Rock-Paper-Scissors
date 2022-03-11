@@ -68,6 +68,8 @@ elif user_input==2 and com_c==0:
     print("computer won!:)")
 elif com_c>user_input:
     print("Computer won! ;(")
+elif user_input>=3 or user_input<0:
+    print("invalid option!")
 elif user_input>com_c:
     print("user won! :)")
 else:
